@@ -2,21 +2,31 @@
 
 kafka_packages:
   - name: zookeeper
-    version: 3.4.11
-    url: "https://download.pingcap.org/zookeeper-3.4.11.tar.gz"
-    checksum: "sha256:f6bd68a1c8f7c13ea4c2c99f13082d0d71ac464ffaf3bf7a365879ab6ad10e84"
+    version: 3.7.1
+    #url: "https://download.pingcap.org/zookeeper-3.4.11.tar.gz"
+    #checksum: "sha256:f6bd68a1c8f7c13ea4c2c99f13082d0d71ac464ffaf3bf7a365879ab6ad10e84"
+    url "https://dlcdn.apache.org/zookeeper/stable/apache-zookeeper-3.7.1.tar.gz"
+    checksum: "b6d61b013bdf7beb916214167de1b55865e5e463b3b5cac84df97fe044227ab03349a0ef4e657149be7cda161039d069c70d90ad56c87674e6dff5ede227de72"
+    
   - name: kafka
-    version: 2.12-1.0.0
-    url: "https://download.pingcap.org/kafka_2.12-1.0.0.tgz"
-    checksum: "sha256:d5b1d00752252d9c129e9284f26f8280e9899dd374167f257e29d5346eb544b3"
+    version: 2.13-2.8.2
+    #url: "https://download.pingcap.org/kafka_2.12-1.0.0.tgz"
+    #checksum: "sha256:d5b1d00752252d9c129e9284f26f8280e9899dd374167f257e29d5346eb544b3"
+    url: "https://archive.apache.org/dist/kafka/2.8.2/kafka_2.13-2.8.2.tgz"
+    checksum: ""
 
 
 kafka_under_gfw:
   - name: zookeeper
-    version: 3.4.11
-    url: "https://download.pingcap.org/zookeeper-3.4.11.tar.gz"
-    checksum: "sha256:f6bd68a1c8f7c13ea4c2c99f13082d0d71ac464ffaf3bf7a365879ab6ad10e84"
+    version: 3.7.1
+    #url: "https://download.pingcap.org/zookeeper-3.4.11.tar.gz"
+    #checksum: "sha256:f6bd68a1c8f7c13ea4c2c99f13082d0d71ac464ffaf3bf7a365879ab6ad10e84"
+    url "https://dlcdn.apache.org/zookeeper/stable/apache-zookeeper-3.7.1.tar.gz"
+    checksum: "b6d61b013bdf7beb916214167de1b55865e5e463b3b5cac84df97fe044227ab03349a0ef4e657149be7cda161039d069c70d90ad56c87674e6dff5ede227de72"
+    
   - name: kafka
-    version: 2.12-1.0.0
-    url: "https://download.pingcap.org/kafka_2.12-1.0.0.tgz"
-    checksum: "sha256:d5b1d00752252d9c129e9284f26f8280e9899dd374167f257e29d5346eb544b3"
+    version: 2.13-2.8.2
+    #url: "https://download.pingcap.org/kafka_2.12-1.0.0.tgz"
+    #checksum: "sha256:d5b1d00752252d9c129e9284f26f8280e9899dd374167f257e29d5346eb544b3"
+    url: "https://archive.apache.org/dist/kafka/2.8.2/kafka_2.13-2.8.2.tgz"
+    checksum: ""
